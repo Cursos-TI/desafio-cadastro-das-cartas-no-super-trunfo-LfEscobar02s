@@ -99,6 +99,5 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-//Eu não entendi muito bem como a sincronização funciona, pois em um dos videos aparece outro codespace, talvez eu tenha entendido errado.
     return 0;
 } 
