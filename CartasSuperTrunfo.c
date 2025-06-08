@@ -90,5 +90,14 @@ int main() {
     printf("PIB per Capita: Carta 1 venceu (%d)\n", compararMaior(c1.pib_per_capita, c2.pib_per_capita));
     printf("Super Poder: Carta 1 venceu (%d)\n", compararMaior(c1.super_poder, c2.super_poder));
 
+
+        // Utilizando if-else para comparar os PIBs
+    if (carta1.pib > carta2.pib) {
+        printf("Resultado: Carta 1 (%s) venceu!\n", carta1.nome);
+    } else if (carta2.pib > carta1.pib) {
+        printf("Resultado: Carta 2 (%s) venceu!\n", carta2.nome);
+    } else {
+        printf("Resultado: Empate! Ambas as cartas têm o mesmo PIB.\n");
+    }
     return 0;
 }
